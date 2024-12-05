@@ -8,7 +8,6 @@ package FactoryWorker;
 /**
  *
  * @author akshit verma
- * Added java  class
  */
 public class FactoryWorker {
     private String name;
