@@ -6,6 +6,7 @@
 - **[@singh-varun3](https://github.com/singh-varun3)** - 002310584
 - **[@AkshitVerma-AV](https://github.com/AkshitVerma-AV)**- 002059756
 - **[@EthanGomes14](https://github.com/EthanGomes14)** - 002300753
+Ethan
 
 ### Approved by: TA Shreya Jaiswal
 
