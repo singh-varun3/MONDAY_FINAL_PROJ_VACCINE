@@ -3,9 +3,9 @@
 **VaxSphere** is an integrated desktop-based platform designed using Java Swing to streamline vaccine distribution and management processes, ensuring efficiency, transparency, and accountability at all levels.
 
 ## Project Members
-- **Akshit Verma** - 002059756
-- **Ethan Gomes** - 002300753
-- **Varun Singh** - 002310584
+- **[@singh-varun3](https://github.com/singh-varun3)** - 002310584
+- **[@AkshitVerma-AV](https://github.com/AkshitVerma-AV)**- 002059756
+- **[@EthanGomes14](https://github.com/EthanGomes14)** - 002300753
 
 ### Approved by: TA Shreya Jaiswal
 
@@ -99,7 +99,5 @@ VaxSphere aims to:
 - [NetBeans IDE](https://netbeans.apache.org/) installed on your system.
 - [MySQL](https://www.mysql.com/) or [SQLite](https://www.sqlite.org/index.html) database set up.
 
-## Collaborators
-- [@singh-varun3](https://github.com/singh-varun3)
-- [@AkshitVerma-AV](https://github.com/AkshitVerma-AV)
-- [@EthanGomes14](https://github.com/EthanGomes14)
+
+
