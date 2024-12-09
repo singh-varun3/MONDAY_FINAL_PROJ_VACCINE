@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class ManageManufactureAdminUserAccountJPanel extends javax.swing.JPanel {
 

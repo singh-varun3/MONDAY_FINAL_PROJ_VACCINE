@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -104,7 +104,7 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Main Menu:");
 
         registerNewPatientjButton.setText("Register New Patient");
@@ -140,25 +140,24 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addContainerGap())
                     .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8))
-                        .addGap(0, 59, Short.MAX_VALUE))))
+                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(mainMenujPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel8)))
+                        .addGap(0, 146, Short.MAX_VALUE))))
         );
         mainMenujPanelLayout.setVerticalGroup(
             mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenujPanelLayout.createSequentialGroup()
                 .addGap(29, 29, 29)
-                .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addGap(56, 56, 56))
-                    .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel8)))
-                .addGap(28, 28, 28)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(placeVaccineOrderjButton)
@@ -166,7 +165,7 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(administerVaccinejButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(registerNewPatientjButton)
-                .addContainerGap(188, Short.MAX_VALUE))
+                .addGap(122, 122, 122))
         );
 
         jSplitPane2.setTopComponent(mainMenujPanel);

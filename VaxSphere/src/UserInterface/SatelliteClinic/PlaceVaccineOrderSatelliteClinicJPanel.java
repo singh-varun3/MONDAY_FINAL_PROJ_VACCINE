@@ -32,7 +32,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class PlaceVaccineOrderSatelliteClinicJPanel extends javax.swing.JPanel {
 

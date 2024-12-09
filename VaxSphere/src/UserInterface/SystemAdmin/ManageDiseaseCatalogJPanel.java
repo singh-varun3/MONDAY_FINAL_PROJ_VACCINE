@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class ManageDiseaseCatalogJPanel extends javax.swing.JPanel {
 

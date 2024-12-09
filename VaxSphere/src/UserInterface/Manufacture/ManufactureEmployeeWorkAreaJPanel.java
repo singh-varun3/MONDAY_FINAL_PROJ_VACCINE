@@ -119,7 +119,7 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("MANUFACTURER");
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setText("Main Menu:");
 
         jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Akshit Verma\\Desktop\\FINALL\\dummy-repo\\FinalProject_vaccine\\images\\Manufacturer_150x85.jpg")); // NOI18N
@@ -170,7 +170,7 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(viewBalancejButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(manageRecallRequestsjButton)
-                .addContainerGap(70, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
 
         jSplitPane2.setTopComponent(mainMenu);

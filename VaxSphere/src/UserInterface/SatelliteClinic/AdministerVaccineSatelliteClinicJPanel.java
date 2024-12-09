@@ -24,7 +24,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class AdministerVaccineSatelliteClinicJPanel extends javax.swing.JPanel {
 

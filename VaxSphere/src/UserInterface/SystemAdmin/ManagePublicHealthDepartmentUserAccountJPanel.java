@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author Varun
  */
 public class ManagePublicHealthDepartmentUserAccountJPanel extends javax.swing.JPanel {
 
