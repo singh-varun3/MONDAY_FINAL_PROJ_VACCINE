@@ -47,11 +47,6 @@ VaxSphere aims to:
 
 ---
 
-## System Architecture
-
-### High-Level Component Diagram
-![High-Level Component Diagram](docs/images/high_level_component_diagram.png)
-
 ### Ecosystem Hierarchy
 #### Enterprises
 1. **Government**  
@@ -90,7 +85,6 @@ VaxSphere aims to:
 - **Programming Language:** Java
 - **Development Environment:** NetBeans
 - **UI Framework:** Swing
-- **Database:** MySQL / SQLite (for data storage)
 - **Version Control:** Git / GitHub (for collaboration)
 
 ---
@@ -98,7 +92,7 @@ VaxSphere aims to:
 
 ### Prerequisites
 - [NetBeans IDE](https://netbeans.apache.org/) installed on your system.
-- [MySQL](https://www.mysql.com/) or [SQLite](https://www.sqlite.org/index.html) database set up.
+
 
 
 
