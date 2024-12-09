@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author akshit verma
+ * @author varunsingh
  */
 public class Business extends Organization{
     
