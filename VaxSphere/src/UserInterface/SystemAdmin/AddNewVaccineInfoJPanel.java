@@ -67,6 +67,8 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         diseasejComboBox = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(230, 249, 255));
+
         jLabel4.setText("Date on VIS:");
 
         lastUpdatedOnjDateChooser.setDateFormatString(" MMM, d yyyy");
@@ -80,7 +82,7 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Add New Vaccine Information");
 
@@ -168,7 +170,7 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
                 .addComponent(addVaccineJButton)
                 .addGap(18, 18, 18)
                 .addComponent(backJButton)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(71, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

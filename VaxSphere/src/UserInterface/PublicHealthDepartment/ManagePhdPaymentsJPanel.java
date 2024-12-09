@@ -97,6 +97,8 @@ public class ManagePhdPaymentsJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         payAmountjButton = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(230, 249, 255));
+
         refreshjButton.setText("Refresh");
         refreshjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,10 +106,11 @@ public class ManagePhdPaymentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Payments");
 
+        paymentsjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         paymentsjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -173,7 +176,7 @@ public class ManagePhdPaymentsJPanel extends javax.swing.JPanel {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel2)
                         .addComponent(currentBalancejTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(94, Short.MAX_VALUE))
+                .addContainerGap(90, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

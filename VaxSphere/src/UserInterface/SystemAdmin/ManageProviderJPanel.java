@@ -100,7 +100,9 @@ public class ManageProviderJPanel extends javax.swing.JPanel {
         addProviderJButton = new javax.swing.JButton();
         backJButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Providers");
 
@@ -119,6 +121,7 @@ public class ManageProviderJPanel extends javax.swing.JPanel {
 
         cityJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+        providerjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         providerjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

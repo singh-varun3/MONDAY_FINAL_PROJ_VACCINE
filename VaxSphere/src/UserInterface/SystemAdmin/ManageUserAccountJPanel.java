@@ -45,7 +45,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         manageProviderAdminjButton = new javax.swing.JButton();
         managePHDaccountsjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage User Account");
 
@@ -107,7 +109,7 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
                 .addComponent(managePHDaccountsjButton)
                 .addGap(12, 12, 12)
                 .addComponent(manageProviderAdminjButton)
-                .addContainerGap(129, Short.MAX_VALUE))
+                .addContainerGap(125, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

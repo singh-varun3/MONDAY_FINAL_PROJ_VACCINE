@@ -72,7 +72,9 @@ public class ManageInsuranceCompanyJPanel extends javax.swing.JPanel {
         amountjTextField = new javax.swing.JTextField();
         addjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Insurance Company");
 
@@ -106,7 +108,7 @@ public class ManageInsuranceCompanyJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Add New Insurance Company:");
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
@@ -172,7 +174,7 @@ public class ManageInsuranceCompanyJPanel extends javax.swing.JPanel {
                     .addComponent(amountjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(addjButton)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

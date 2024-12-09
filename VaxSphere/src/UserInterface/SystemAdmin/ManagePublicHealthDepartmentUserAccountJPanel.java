@@ -246,9 +246,11 @@ public class ManagePublicHealthDepartmentUserAccountJPanel extends javax.swing.J
         jLabel2 = new javax.swing.JLabel();
         publicHealthDepartmentjComboBox = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(230, 249, 255));
+
         jLabel5.setText("First Name:");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Public Health Department Admin");
 
@@ -259,6 +261,7 @@ public class ManagePublicHealthDepartmentUserAccountJPanel extends javax.swing.J
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("List of Admins:");
 
+        adminJTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         adminJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -391,7 +394,7 @@ public class ManagePublicHealthDepartmentUserAccountJPanel extends javax.swing.J
                 .addComponent(createAdminJButton)
                 .addGap(11, 11, 11)
                 .addComponent(backJButton)
-                .addContainerGap(88, Short.MAX_VALUE))
+                .addContainerGap(84, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

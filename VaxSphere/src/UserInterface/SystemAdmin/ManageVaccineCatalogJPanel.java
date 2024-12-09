@@ -67,10 +67,13 @@ public class ManageVaccineCatalogJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         refreshjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Vaccine Catalog");
 
+        vaccineJTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         vaccineJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -169,7 +172,7 @@ public class ManageVaccineCatalogJPanel extends javax.swing.JPanel {
                     .addComponent(removeVaccineJButton))
                 .addGap(26, 26, 26)
                 .addComponent(backJButton)
-                .addContainerGap(96, Short.MAX_VALUE))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

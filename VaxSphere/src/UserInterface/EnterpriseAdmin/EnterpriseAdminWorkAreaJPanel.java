@@ -64,9 +64,8 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageEmployeesjButton = new javax.swing.JButton();
         manageUsersjButton = new javax.swing.JButton();
         manageAccountjButton = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         profileViewContainer = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -91,7 +90,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         mainMenuContainer.setBackground(new java.awt.Color(179, 236, 255));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Main Menu:");
 
         manageDepartmentsjButton.setText("Manage Department");
@@ -122,50 +121,46 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/EnterpriseAdmin/login_icon.png"))); // NOI18N
-        jLabel5.setText("jLabel5");
-
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel7.setText("Enterprise");
+        jLabel7.setText("Enterprise Admin");
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel8.setText("Admin");
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Akshit Verma\\Desktop\\FINALL\\dummy-repo\\FinalProject_vaccine\\images\\Enterprise_Admin_logo_150x85_resized.png")); // NOI18N
+        jLabel5.setText("jLabel5");
 
         javax.swing.GroupLayout mainMenuContainerLayout = new javax.swing.GroupLayout(mainMenuContainer);
         mainMenuContainer.setLayout(mainMenuContainerLayout);
         mainMenuContainerLayout.setHorizontalGroup(
             mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuContainerLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel1)
-                    .addComponent(manageDepartmentsjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 138, Short.MAX_VALUE)
-                    .addComponent(manageEmployeesjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(manageUsersjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(manageAccountjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(19, Short.MAX_VALUE))
-            .addGroup(mainMenuContainerLayout.createSequentialGroup()
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel8))
+                .addGap(129, 129, 129)
+                .addComponent(jLabel1)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(mainMenuContainerLayout.createSequentialGroup()
+                .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(mainMenuContainerLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel7))
+                    .addGroup(mainMenuContainerLayout.createSequentialGroup()
+                        .addGap(96, 96, 96)
+                        .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(manageDepartmentsjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(manageEmployeesjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(manageUsersjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(manageAccountjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(94, Short.MAX_VALUE))
         );
         mainMenuContainerLayout.setVerticalGroup(
             mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuContainerLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(mainMenuContainerLayout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8))
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(11, 11, 11)
+                .addGap(26, 26, 26)
+                .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7))
+                .addGap(41, 41, 41)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(manageDepartmentsjButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(manageEmployeesjButton)
@@ -173,7 +168,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(manageUsersjButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(manageAccountjButton)
-                .addContainerGap(159, Short.MAX_VALUE))
+                .addContainerGap(95, Short.MAX_VALUE))
         );
 
         jSplitPane2.setTopComponent(mainMenuContainer);
@@ -216,7 +211,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
                         .addComponent(enterprisejLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(profileViewContainerLayout.createSequentialGroup()
                         .addComponent(updateUserProfilejButton)
-                        .addGap(0, 12, Short.MAX_VALUE))
+                        .addGap(0, 231, Short.MAX_VALUE))
                     .addGroup(profileViewContainerLayout.createSequentialGroup()
                         .addGroup(profileViewContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -246,7 +241,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
                     .addComponent(enterprisejLabel))
                 .addGap(18, 18, 18)
                 .addComponent(updateUserProfilejButton)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addContainerGap(148, Short.MAX_VALUE))
         );
 
         jSplitPane2.setRightComponent(profileViewContainer);
@@ -310,7 +305,6 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JSplitPane jSplitPane2;

@@ -74,10 +74,13 @@ public class ManageStateFundedVaccinesJPanel extends javax.swing.JPanel {
         addToStateFundedjButton = new javax.swing.JButton();
         removeFundingjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage State Funded Vaccine");
 
+        vaccineJTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         vaccineJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -137,7 +140,7 @@ public class ManageStateFundedVaccinesJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(addToStateFundedjButton)
                     .addComponent(removeFundingjButton))
-                .addContainerGap(257, Short.MAX_VALUE))
+                .addContainerGap(253, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

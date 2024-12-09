@@ -230,7 +230,9 @@ public class ManageDistributorUserAccountJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         lastNameJTextField = new javax.swing.JTextField();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Distributor Admin");
 
@@ -238,7 +240,7 @@ public class ManageDistributorUserAccountJPanel extends javax.swing.JPanel {
 
         jLabel5.setText("First Name:");
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Create New Admin:");
 
         backJButton.setText("<< Back");
@@ -262,6 +264,7 @@ public class ManageDistributorUserAccountJPanel extends javax.swing.JPanel {
             }
         });
 
+        adminJTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         adminJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -283,7 +286,7 @@ public class ManageDistributorUserAccountJPanel extends javax.swing.JPanel {
 
         jLabel8.setText("Password:");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("List of Admins:");
 
         jLabel7.setText("UserName:");
@@ -362,7 +365,7 @@ public class ManageDistributorUserAccountJPanel extends javax.swing.JPanel {
                 .addComponent(createAdminJButton)
                 .addGap(18, 18, 18)
                 .addComponent(backJButton)
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

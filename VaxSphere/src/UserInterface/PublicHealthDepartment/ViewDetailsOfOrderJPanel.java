@@ -116,7 +116,9 @@ public class ViewDetailsOfOrderJPanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         contractDetailsjTextField = new javax.swing.JTextField();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Order Details");
 
@@ -206,7 +208,7 @@ public class ViewDetailsOfOrderJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(approveOrderjButton)
                     .addComponent(backJButton2))
-                .addContainerGap(63, Short.MAX_VALUE))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

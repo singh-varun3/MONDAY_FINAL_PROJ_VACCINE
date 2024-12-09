@@ -63,9 +63,9 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
         administerVaccinejButton = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         registerNewPatientjButton = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         userProfilejPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -81,13 +81,14 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setDividerLocation(170);
 
+        workContainer.setBackground(new java.awt.Color(230, 249, 255));
         workContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(workContainer);
 
         jSplitPane2.setDividerLocation(450);
         jSplitPane2.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        mainMenujPanel.setBackground(new java.awt.Color(255, 255, 255));
+        mainMenujPanel.setBackground(new java.awt.Color(179, 236, 255));
 
         placeVaccineOrderjButton.setText("Place Vaccine Order");
         placeVaccineOrderjButton.addActionListener(new java.awt.event.ActionListener() {
@@ -113,14 +114,14 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/SatelliteClinic/clinic-256.png"))); // NOI18N
-        jLabel6.setText("jLabel6");
-
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel7.setText("SATELLITE");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel8.setText("CLINC");
+        jLabel8.setText("CLINIC");
+
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\Akshit Verma\\Desktop\\FINALL\\dummy-repo\\FinalProject_vaccine\\images\\Satellite_Clinic_150x85 (1).png")); // NOI18N
+        jLabel10.setText("jLabel10");
 
         javax.swing.GroupLayout mainMenujPanelLayout = new javax.swing.GroupLayout(mainMenujPanel);
         mainMenujPanel.setLayout(mainMenujPanelLayout);
@@ -129,32 +130,35 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(mainMenujPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(administerVaccinejButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(placeVaccineOrderjButton, javax.swing.GroupLayout.DEFAULT_SIZE, 147, Short.MAX_VALUE)
-                    .addComponent(registerNewPatientjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-            .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel8))
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(administerVaccinejButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(placeVaccineOrderjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(registerNewPatientjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(mainMenujPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addContainerGap())
+                    .addGroup(mainMenujPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel8))
+                        .addGap(0, 59, Short.MAX_VALUE))))
         );
         mainMenujPanelLayout.setVerticalGroup(
             mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6)
+                .addGap(29, 29, 29)
+                .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(mainMenujPanelLayout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(56, 56, 56))
+                    .addGroup(mainMenujPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel8)))
-                .addGap(18, 18, 18)
+                .addGap(28, 28, 28)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(placeVaccineOrderjButton)
@@ -162,12 +166,12 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(administerVaccinejButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(registerNewPatientjButton)
-                .addContainerGap(252, Short.MAX_VALUE))
+                .addContainerGap(188, Short.MAX_VALUE))
         );
 
         jSplitPane2.setTopComponent(mainMenujPanel);
 
-        userProfilejPanel.setBackground(new java.awt.Color(255, 255, 255));
+        userProfilejPanel.setBackground(new java.awt.Color(179, 236, 255));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setText("User Profile:");
@@ -204,24 +208,23 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(userProfilejPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(userProfilejPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(updateUserProfilejButton, javax.swing.GroupLayout.DEFAULT_SIZE, 147, Short.MAX_VALUE)
+                    .addComponent(updateUserProfilejButton, javax.swing.GroupLayout.DEFAULT_SIZE, 288, Short.MAX_VALUE)
                     .addGroup(userProfilejPanelLayout.createSequentialGroup()
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(providerjLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(userProfilejPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(userProfilejPanelLayout.createSequentialGroup()
-                            .addComponent(jLabel3)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(namejLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(userProfilejPanelLayout.createSequentialGroup()
-                            .addComponent(jLabel5)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(clinicjLabel))
-                        .addGroup(userProfilejPanelLayout.createSequentialGroup()
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jLabel2))))
+                    .addGroup(userProfilejPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(namejLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(userProfilejPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(clinicjLabel))
+                    .addGroup(userProfilejPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel2)))
                 .addContainerGap())
         );
         userProfilejPanelLayout.setVerticalGroup(
@@ -293,11 +296,11 @@ public class SatelliteClinicWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton administerVaccinejButton;
     private javax.swing.JLabel clinicjLabel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;

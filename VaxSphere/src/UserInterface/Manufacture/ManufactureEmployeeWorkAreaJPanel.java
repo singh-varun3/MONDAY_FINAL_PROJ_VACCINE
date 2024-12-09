@@ -63,9 +63,9 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         manageOrdersjButton = new javax.swing.JButton();
         viewBalancejButton = new javax.swing.JButton();
         manageRecallRequestsjButton = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         userProfile = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -116,14 +116,14 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Manufacture/PLANT_APPLICATIONS_60x60.jpg"))); // NOI18N
-        jLabel4.setText("jLabel4");
-
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("MANUFACTURER");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setText("Main Menu:");
+
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Akshit Verma\\Desktop\\FINALL\\dummy-repo\\FinalProject_vaccine\\images\\Manufacturer_150x85.jpg")); // NOI18N
+        jLabel8.setText("jLabel8");
 
         javax.swing.GroupLayout mainMenuLayout = new javax.swing.GroupLayout(mainMenu);
         mainMenu.setLayout(mainMenuLayout);
@@ -138,26 +138,27 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
                                 .addComponent(jLabel6))
                             .addGroup(mainMenuLayout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(jLabel5))
-                            .addGroup(mainMenuLayout.createSequentialGroup()
-                                .addGap(43, 43, 43)
-                                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jLabel5)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(mainMenuLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(manageVaccineProdjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(manageVaccineProdjButton, javax.swing.GroupLayout.DEFAULT_SIZE, 191, Short.MAX_VALUE)
                             .addComponent(manageOrdersjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(viewBalancejButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(manageRecallRequestsjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
+            .addGroup(mainMenuLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         mainMenuLayout.setVerticalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(40, 40, 40)
+                .addComponent(jLabel8)
+                .addGap(31, 31, 31)
                 .addComponent(jLabel5)
                 .addGap(41, 41, 41)
                 .addComponent(jLabel6)
@@ -169,7 +170,7 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(viewBalancejButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(manageRecallRequestsjButton)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addContainerGap(70, Short.MAX_VALUE))
         );
 
         jSplitPane2.setTopComponent(mainMenu);
@@ -206,7 +207,7 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(userProfileLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(userProfileLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(updateUserAccountjButton, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                    .addComponent(updateUserAccountjButton, javax.swing.GroupLayout.DEFAULT_SIZE, 191, Short.MAX_VALUE)
                     .addGroup(userProfileLayout.createSequentialGroup()
                         .addComponent(jLabel3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -298,10 +299,10 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JSplitPane jSplitPane2;
     private javax.swing.JPanel mainMenu;

@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class EnterStatePopulationJPanel extends javax.swing.JPanel {
 
@@ -56,7 +56,9 @@ public class EnterStatePopulationJPanel extends javax.swing.JPanel {
         updatePopulationjTextField = new javax.swing.JTextField();
         updatejButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("State Population");
 
@@ -118,7 +120,7 @@ public class EnterStatePopulationJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(updatePopulationjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(updatejButton))
-                .addContainerGap(129, Short.MAX_VALUE))
+                .addContainerGap(125, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

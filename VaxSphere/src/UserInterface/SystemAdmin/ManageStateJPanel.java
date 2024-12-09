@@ -132,7 +132,9 @@ public class ManageStateJPanel extends javax.swing.JPanel {
         removeStateJButton = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage States");
 
@@ -231,7 +233,7 @@ public class ManageStateJPanel extends javax.swing.JPanel {
                     .addComponent(addStateJButton))
                 .addGap(30, 30, 30)
                 .addComponent(backJButton)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

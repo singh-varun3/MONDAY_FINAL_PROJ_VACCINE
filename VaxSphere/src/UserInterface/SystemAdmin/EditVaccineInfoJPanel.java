@@ -56,6 +56,8 @@ public class EditVaccineInfoJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(230, 249, 255));
+
         dateOnVisjDateChooser.setDateFormatString(" MMM, d yyyy");
 
         jLabel3.setText("Vaccine Name:");
@@ -80,7 +82,7 @@ public class EditVaccineInfoJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Edit Vaccine Information");
 
@@ -145,7 +147,7 @@ public class EditVaccineInfoJPanel extends javax.swing.JPanel {
                 .addComponent(editVaccineJButton)
                 .addGap(18, 18, 18)
                 .addComponent(backJButton)
-                .addContainerGap(38, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
