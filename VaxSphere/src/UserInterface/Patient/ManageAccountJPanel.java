@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageAccountJPanel extends javax.swing.JPanel {
 
@@ -103,7 +103,9 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
         yesjRadioButton = new javax.swing.JRadioButton();
         nojRadioButton = new javax.swing.JRadioButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Account");
 
@@ -244,7 +246,7 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
                     .addComponent(updatedCoveredAmountjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addComponent(updatejButton)
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

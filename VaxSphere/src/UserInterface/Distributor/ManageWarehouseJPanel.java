@@ -22,7 +22,7 @@ import Business.NationalEnterprise.Distributor;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageWarehouseJPanel extends javax.swing.JPanel {
 
@@ -108,10 +108,6 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         warehousejTable = new javax.swing.JTable();
         jSeparator1 = new javax.swing.JSeparator();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        locationjTextField = new javax.swing.JTextField();
-        addWarehousejButton = new javax.swing.JButton();
         viewInventoryjButton = new javax.swing.JButton();
         newAddWarehousejButton = new javax.swing.JButton();
         refreshjButton = new javax.swing.JButton();
@@ -133,17 +129,6 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
         ));
         warehousejTable.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(warehousejTable);
-
-        jLabel2.setText("Add New Warehouse:");
-
-        jLabel3.setText("Location:");
-
-        addWarehousejButton.setText("Add Warehouse");
-        addWarehousejButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addWarehousejButtonActionPerformed(evt);
-            }
-        });
 
         viewInventoryjButton.setText("View Inventory");
         viewInventoryjButton.addActionListener(new java.awt.event.ActionListener() {
@@ -173,28 +158,17 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 573, Short.MAX_VALUE)
-                            .addComponent(jSeparator1)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(addWarehousejButton, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE)
-                                    .addComponent(locationjTextField))
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(refreshjButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(viewInventoryjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap())
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 573, Short.MAX_VALUE)
+                    .addComponent(jSeparator1)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(refreshjButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(newAddWarehousejButton, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(24, 24, 24))))
+                        .addComponent(viewInventoryjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(newAddWarehousejButton, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -213,29 +187,10 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
                         .addGap(18, 18, 18)))
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(newAddWarehousejButton))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(locationjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(addWarehousejButton)
-                .addContainerGap(145, Short.MAX_VALUE))
+                .addComponent(newAddWarehousejButton)
+                .addContainerGap(226, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
-    private void addWarehousejButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addWarehousejButtonActionPerformed
-        // TODO add your handling code here:
-        
-        String location = locationjTextField.getText();
-        
-        Warehouse warehouse = distributorOrganization.getWarehouseDir().addNewWareHouse();
-        warehouse.setLocation(location);
-        populateTable();
-        
-    }//GEN-LAST:event_addWarehousejButtonActionPerformed
 
     private void viewInventoryjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewInventoryjButtonActionPerformed
         // TODO add your handling code here:
@@ -274,13 +229,9 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton addWarehousejButton;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextField locationjTextField;
     private javax.swing.JButton newAddWarehousejButton;
     private javax.swing.JButton refreshjButton;
     private javax.swing.JButton viewInventoryjButton;

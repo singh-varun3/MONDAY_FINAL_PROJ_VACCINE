@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 

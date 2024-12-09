@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ViewDetailsOfShippedOrderJPanel extends javax.swing.JPanel {
 
@@ -89,7 +89,9 @@ public class ViewDetailsOfShippedOrderJPanel extends javax.swing.JPanel {
         storeVaccinesjButton = new javax.swing.JButton();
         backJButton3 = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Store Shipped Orders");
 
@@ -97,6 +99,7 @@ public class ViewDetailsOfShippedOrderJPanel extends javax.swing.JPanel {
 
         orderNumberjTextField.setEnabled(false);
 
+        orderjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         orderjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -165,7 +168,7 @@ public class ViewDetailsOfShippedOrderJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(storeVaccinesjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(backJButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(148, Short.MAX_VALUE))
+                .addContainerGap(144, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ViewDetailsOfPlacedOrderJPanel extends javax.swing.JPanel {
 
@@ -111,7 +111,9 @@ public class ViewDetailsOfPlacedOrderJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         backJButton3 = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("View Details of Placed Order");
 
@@ -205,7 +207,7 @@ public class ViewDetailsOfPlacedOrderJPanel extends javax.swing.JPanel {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 321, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(backJButton3)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

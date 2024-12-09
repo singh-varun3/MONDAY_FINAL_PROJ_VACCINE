@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ProviderAdministeredVaccineListJPanel extends javax.swing.JPanel {
 

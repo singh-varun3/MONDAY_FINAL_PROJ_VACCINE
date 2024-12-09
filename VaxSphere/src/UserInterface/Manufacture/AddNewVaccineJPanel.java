@@ -20,7 +20,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class AddNewVaccineJPanel extends javax.swing.JPanel {
 
@@ -109,7 +109,9 @@ public class AddNewVaccineJPanel extends javax.swing.JPanel {
         jLabel13 = new javax.swing.JLabel();
         departmentjComboBox = new javax.swing.JComboBox();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Add New Vaccine");
 
@@ -257,7 +259,7 @@ public class AddNewVaccineJPanel extends javax.swing.JPanel {
                     .addComponent(dateOfExpiryjDateChooser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(addVaccinejButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                 .addComponent(backJButton2)
                 .addGap(34, 34, 34))
         );

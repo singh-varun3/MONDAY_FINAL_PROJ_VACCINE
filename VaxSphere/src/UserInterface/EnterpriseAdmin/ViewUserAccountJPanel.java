@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ViewUserAccountJPanel extends javax.swing.JPanel {
 
@@ -207,6 +207,8 @@ public class ViewUserAccountJPanel extends javax.swing.JPanel {
         personjTextField = new javax.swing.JTextField();
         rolejTextField = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(230, 249, 255));
+
         jLabel5.setText("Username:");
 
         backJButton.setText("<< Back");
@@ -218,7 +220,7 @@ public class ViewUserAccountJPanel extends javax.swing.JPanel {
 
         jLabel6.setText("Password:");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("View/Update User Account");
 
@@ -299,7 +301,7 @@ public class ViewUserAccountJPanel extends javax.swing.JPanel {
                 .addComponent(updateUserAccountjButton)
                 .addGap(18, 18, 18)
                 .addComponent(backJButton)
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

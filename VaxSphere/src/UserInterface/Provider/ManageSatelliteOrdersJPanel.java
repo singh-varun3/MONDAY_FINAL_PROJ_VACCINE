@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageSatelliteOrdersJPanel extends javax.swing.JPanel {
 
@@ -118,7 +118,9 @@ public class ManageSatelliteOrdersJPanel extends javax.swing.JPanel {
         viewDetailsOfOrderjButton = new javax.swing.JButton();
         refreshOrderjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Orders from Satellite Clinics");
 
@@ -185,10 +187,10 @@ public class ManageSatelliteOrdersJPanel extends javax.swing.JPanel {
                     .addComponent(jLabel2)
                     .addComponent(refreshOrderjButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 391, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(viewDetailsOfOrderjButton)
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

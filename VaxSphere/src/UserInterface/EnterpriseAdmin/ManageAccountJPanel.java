@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageAccountJPanel extends javax.swing.JPanel {
 
@@ -48,7 +48,9 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
         addjButton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Account");
 
@@ -114,7 +116,7 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
                     .addComponent(addAmountjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(addjButton)
                     .addComponent(jLabel4))
-                .addContainerGap(364, Short.MAX_VALUE))
+                .addContainerGap(360, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

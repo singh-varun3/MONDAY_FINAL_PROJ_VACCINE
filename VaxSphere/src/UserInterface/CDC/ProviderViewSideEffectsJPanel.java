@@ -26,7 +26,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ProviderViewSideEffectsJPanel extends javax.swing.JPanel {
 

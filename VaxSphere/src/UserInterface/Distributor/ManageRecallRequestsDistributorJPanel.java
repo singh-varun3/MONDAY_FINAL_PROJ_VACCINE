@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageRecallRequestsDistributorJPanel extends javax.swing.JPanel {
 

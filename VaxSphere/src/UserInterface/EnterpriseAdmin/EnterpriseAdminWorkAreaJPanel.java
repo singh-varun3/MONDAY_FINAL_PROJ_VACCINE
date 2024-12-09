@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -82,13 +82,14 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setDividerLocation(170);
 
+        workContainer.setBackground(new java.awt.Color(230, 249, 255));
         workContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(workContainer);
 
         jSplitPane2.setDividerLocation(400);
         jSplitPane2.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        mainMenuContainer.setBackground(new java.awt.Color(255, 255, 255));
+        mainMenuContainer.setBackground(new java.awt.Color(179, 236, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("Main Menu:");
@@ -138,7 +139,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(mainMenuContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel1)
-                    .addComponent(manageDepartmentsjButton, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
+                    .addComponent(manageDepartmentsjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 138, Short.MAX_VALUE)
                     .addComponent(manageEmployeesjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(manageUsersjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(manageAccountjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -177,7 +178,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane2.setTopComponent(mainMenuContainer);
 
-        profileViewContainer.setBackground(new java.awt.Color(255, 255, 255));
+        profileViewContainer.setBackground(new java.awt.Color(179, 236, 255));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setText("User Profile:");

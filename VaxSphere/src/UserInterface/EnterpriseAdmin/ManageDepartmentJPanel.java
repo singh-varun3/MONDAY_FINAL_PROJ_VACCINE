@@ -27,7 +27,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageDepartmentJPanel extends javax.swing.JPanel {
 
@@ -126,10 +126,13 @@ public class ManageDepartmentJPanel extends javax.swing.JPanel {
         satelliteClinicjLabel = new javax.swing.JLabel();
         satelliteClinicNamejTextField = new javax.swing.JTextField();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Organization");
 
+        organizationJTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -234,7 +237,7 @@ public class ManageDepartmentJPanel extends javax.swing.JPanel {
                 .addComponent(addJButton)
                 .addGap(3, 3, 3)
                 .addComponent(backJButton)
-                .addContainerGap(81, Short.MAX_VALUE))
+                .addContainerGap(77, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

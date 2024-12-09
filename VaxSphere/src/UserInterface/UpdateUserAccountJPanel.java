@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class UpdateUserAccountJPanel extends javax.swing.JPanel {
 

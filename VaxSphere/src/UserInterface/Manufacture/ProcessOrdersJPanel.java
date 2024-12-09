@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ProcessOrdersJPanel extends javax.swing.JPanel {
 
@@ -92,7 +92,9 @@ public class ProcessOrdersJPanel extends javax.swing.JPanel {
         shipOrderjButton = new javax.swing.JButton();
         backJButton2 = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Process Orders");
 

@@ -30,7 +30,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
 
@@ -242,7 +242,9 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         monthlyjRadioButton = new javax.swing.JRadioButton();
         adhocjRadioButton = new javax.swing.JRadioButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Create Vaccine Order");
 
@@ -468,7 +470,7 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
                     .addComponent(bimonthlyjRadioButton)
                     .addComponent(monthlyjRadioButton)
                     .addComponent(adhocjRadioButton))
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

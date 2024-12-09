@@ -23,7 +23,7 @@ import org.jfree.data.general.DefaultPieDataset;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class VARESReportingJPanel extends javax.swing.JPanel {
 

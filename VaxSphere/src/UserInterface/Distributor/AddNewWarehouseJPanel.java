@@ -32,7 +32,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class AddNewWarehouseJPanel extends javax.swing.JPanel {
 

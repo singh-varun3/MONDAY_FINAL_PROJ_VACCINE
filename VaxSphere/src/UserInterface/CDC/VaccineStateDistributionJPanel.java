@@ -23,7 +23,7 @@ import org.jfree.data.general.DefaultPieDataset;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class VaccineStateDistributionJPanel extends javax.swing.JPanel {
 

@@ -24,7 +24,7 @@ import org.jfree.data.general.DefaultPieDataset;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class VaccineCityDistributionJPanel extends javax.swing.JPanel {
 

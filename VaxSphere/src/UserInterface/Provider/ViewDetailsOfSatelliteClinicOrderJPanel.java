@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ViewDetailsOfSatelliteClinicOrderJPanel extends javax.swing.JPanel {
 
@@ -118,7 +118,9 @@ public class ViewDetailsOfSatelliteClinicOrderJPanel extends javax.swing.JPanel 
         backJButton3 = new javax.swing.JButton();
         forwardOrderjButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("View Details of Placed Order by Satellite Clinic");
 
@@ -134,6 +136,7 @@ public class ViewDetailsOfSatelliteClinicOrderJPanel extends javax.swing.JPanel 
 
         orderjTextField.setEnabled(false);
 
+        orderjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         orderjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -224,7 +227,7 @@ public class ViewDetailsOfSatelliteClinicOrderJPanel extends javax.swing.JPanel 
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(backJButton3)
                     .addComponent(forwardOrderjButton))
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

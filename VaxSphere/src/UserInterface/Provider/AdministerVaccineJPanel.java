@@ -22,7 +22,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class AdministerVaccineJPanel extends javax.swing.JPanel {
 
@@ -127,7 +127,9 @@ public class AdministerVaccineJPanel extends javax.swing.JPanel {
         nextPagejButton = new javax.swing.JButton();
         insurerjComboBox = new javax.swing.JComboBox();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Administer Vaccine: Page 1");
 
@@ -305,7 +307,7 @@ public class AdministerVaccineJPanel extends javax.swing.JPanel {
                     .addComponent(accountBalancejTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(nextPagejButton)
-                .addContainerGap(89, Short.MAX_VALUE))
+                .addContainerGap(85, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

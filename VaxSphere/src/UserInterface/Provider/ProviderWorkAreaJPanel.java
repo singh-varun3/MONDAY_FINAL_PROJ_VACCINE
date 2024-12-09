@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 
      
@@ -90,7 +90,7 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
         jSplitPane2.setDividerLocation(450);
         jSplitPane2.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        mainMenu.setBackground(new java.awt.Color(255, 255, 255));
+        mainMenu.setBackground(new java.awt.Color(179, 236, 255));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setText("Main Menu:");
@@ -201,7 +201,7 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane2.setTopComponent(mainMenu);
 
-        userProfile.setBackground(new java.awt.Color(255, 255, 255));
+        userProfile.setBackground(new java.awt.Color(179, 236, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("User profile:");
@@ -276,6 +276,7 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setLeftComponent(jSplitPane2);
 
+        workContainer.setBackground(new java.awt.Color(230, 249, 255));
         workContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(workContainer);
 

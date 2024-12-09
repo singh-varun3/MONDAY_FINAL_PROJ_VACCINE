@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageUserAccountJPanel extends javax.swing.JPanel {
 
@@ -97,7 +97,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
 
         jScrollPane2.setViewportView(jEditorPane1);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage User Accounts");
 
@@ -177,7 +179,7 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
                     .addComponent(createUserjButton)
                     .addComponent(viewUserAccountjButton)
                     .addComponent(removeUserjButton))
-                .addContainerGap(108, Short.MAX_VALUE))
+                .addContainerGap(104, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

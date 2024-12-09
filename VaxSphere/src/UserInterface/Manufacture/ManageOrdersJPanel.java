@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class ManageOrdersJPanel extends javax.swing.JPanel {
 
@@ -133,10 +133,13 @@ public class ManageOrdersJPanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         refreshProcessedOrderTablejButton = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Orders");
 
+        ordersjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         ordersjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -179,6 +182,7 @@ public class ManageOrdersJPanel extends javax.swing.JPanel {
 
         jLabel2.setText("Orders From Distributor:");
 
+        processedOrdersjTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         processedOrdersjTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -256,7 +260,7 @@ public class ManageOrdersJPanel extends javax.swing.JPanel {
                     .addComponent(refreshProcessedOrderTablejButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

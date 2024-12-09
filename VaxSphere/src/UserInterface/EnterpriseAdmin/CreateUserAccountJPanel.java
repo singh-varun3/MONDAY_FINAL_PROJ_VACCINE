@@ -28,7 +28,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Vaibhav
+ * @author akshit verma
  */
 public class CreateUserAccountJPanel extends javax.swing.JPanel {
 
@@ -256,7 +256,9 @@ public class CreateUserAccountJPanel extends javax.swing.JPanel {
         satelliteClinicjLabel = new javax.swing.JLabel();
         satelliteClinicjTextField = new javax.swing.JTextField();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        setBackground(new java.awt.Color(230, 249, 255));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Create User Account");
 
@@ -365,7 +367,7 @@ public class CreateUserAccountJPanel extends javax.swing.JPanel {
                         .addComponent(createUserAccountjButton)))
                 .addGap(15, 15, 15)
                 .addComponent(backJButton)
-                .addContainerGap(91, Short.MAX_VALUE))
+                .addContainerGap(87, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
